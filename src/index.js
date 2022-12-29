@@ -3,7 +3,7 @@ module.exports = reverse = (x) =>
     .replace(/\d/g, (_, i, str) => str[str.length - 1 - i]) >> 0;
 
     /*
-        Более эффектиный алгоритм:
+        Более эффективный алгоритм:
 
         const reverse = (num) => {
             let result = 0;
